@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Pod
 
 metadata:
-  name: frontend
+  name: frontend-2
   namespace: roboshop
   labels:
     purpose: error-check
 
 spec:
   containers:
-    - name: frontend
+    - name: frontend-2
       image: nginxxxxx
