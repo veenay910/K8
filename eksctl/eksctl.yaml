@@ -6,7 +6,7 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  name: roboshop-dev
-  instancetype: t3.medium
-  desiredcapacity: 2
-spot: "True"
+ - name: roboshop-dev
+   instancetype: t3.medium
+   desiredcapacity: 2
+   spot: true
