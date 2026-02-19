@@ -8,7 +8,7 @@ metadata:
     dev: env
     proj: roboshop
 
-  spec:
-    containers:
-      - name: frontend
-        image: nginx
+spec:
+  containers:
+    - name: frontend
+      image: nginx
