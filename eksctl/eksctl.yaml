@@ -1,0 +1,12 @@
+apiversion: eksctl.io/vialpha5
+kind: clusterConfig
+
+metadata:
+  name: roboshop-dev
+  region: us-east-1
+
+ManageNodeGroups:
+  name: roboshop-dev
+  instancetype: t3.medium
+  desiredcapacity: 2
+spot: "True"
