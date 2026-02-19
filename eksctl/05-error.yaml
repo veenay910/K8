@@ -4,7 +4,8 @@ kind: Pod
 metadata:
   name: frontend
   namespace: roboshop
-  purpose: error-check
+  labels:
+    purpose: error-check
 
 spec:
   containers:
