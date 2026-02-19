@@ -13,3 +13,5 @@ managedNodeGroups:
       - t2.medium
     desiredCapacity: 2
     spot: true
+---
+apiVersion:
