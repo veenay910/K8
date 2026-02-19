@@ -1,4 +1,4 @@
-apiversion: eksctl.io/vialpha5
+apiVersion: eksctl.io/vlalpha5
 kind: clusterConfig
 
 metadata:
@@ -7,6 +7,6 @@ metadata:
 
 managedNodeGroups:
  - name: roboshop-dev
-   instancetype: t3.medium
-   desiredcapacity: 2
+   instanceType: t3.medium
+   desiredCapacity: 2
    spot: true
