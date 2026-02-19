@@ -1,0 +1,7 @@
+kubectl version
+kubectl get nodes
+kubectl config current-context
+kubectl cluster-info
+aws configure
+eksctl create cluster --name my-cluster --region us-east-1 --version 1.33
+eksctl get cluster
