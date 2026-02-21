@@ -1,16 +1,16 @@
-apiVersion: app/v1
+apiVersion: apps/v1
 kind: ReplicaSet
 
 metadata:
   name: replicaset
   namespace: roboshop
-  lables: 
+  labels: 
     purpose: demo
 
 spec:
   replicas: 3
   selector:
-    matchlables:
+    matchLables:
       proj: roboshop
       comp: frontend
       env: dev
