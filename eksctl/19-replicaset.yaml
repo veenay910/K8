@@ -1,29 +1,25 @@
 apiVersion: apps/v1
 kind: ReplicaSet
-
 metadata:
   name: replicaset
   namespace: roboshop
-  labels: 
+  labels:
     purpose: demo
-
 spec:
   replicas: 3
   selector:
-    matchLabels:
+    matchLabels:  
       proj: roboshop
       comp: frontend
       env: dev
-
-template:
-  metadata:
-    labels:
-      proj: roboshop
-      comp: frontend
-      env: dev
-spec:
-  containers:
-    - name: replica-nginx
-      image: nginx
-
-    
+  template:
+    metadata:
+      labels:
+        proj: roboshop
+        comp: frontend
+        env: dev
+    spec:
+      containers:
+        - name: replica-nginx
+          image: nginx
+          
