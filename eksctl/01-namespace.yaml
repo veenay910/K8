@@ -6,6 +6,3 @@ metadata:
  labels:
    env: dev
    proj: roboshop
-
----
-api
