@@ -10,5 +10,6 @@ metdata:
     env: dev
 
 spec:
-  - name: pod-nodeport
-    image: nginx
+  containers:
+    - name: pod-nodeport
+       image: nginx
