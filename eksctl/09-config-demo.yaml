@@ -4,6 +4,6 @@ kind: ConfigMap
 metadata:
   name: configmap-demo
   namespace: roboshop
-  data:
-    state: telangana
-    country: india
+data:
+  state: telangana
+  country: india
