@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: configmap
+
+metadata:
+  name: configmap-demo
+  namespace: roboshop
+  data:
+    state: telangana
+    country: india
