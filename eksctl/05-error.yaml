@@ -10,4 +10,4 @@ metadata:
 spec:
   containers:
     - name: frontend-2
-      image: wnginxxxxx
+      image: 123abcnginx
