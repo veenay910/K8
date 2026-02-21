@@ -12,5 +12,4 @@ metadata:
 spec:
   containers:
     - name: pod-service
-      imge: nginx
-      
+      image: nginx
