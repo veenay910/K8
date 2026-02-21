@@ -4,8 +4,8 @@ kind: Pod
 metadata:
 labels:
   proj: roboshop
-    comp: frontend
-    env: dev
+  comp: frontend
+  env: dev
 
 spec:
   containers:
