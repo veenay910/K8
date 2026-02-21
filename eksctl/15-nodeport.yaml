@@ -12,8 +12,8 @@ spec:
     comp: frontend
     env: dev
   ports:
-    protocol: TCP
-    port: 80
-    targetport: 80
-    
+    - protocol: TCP
+      port: 80
+      targetport: 80
+
     
