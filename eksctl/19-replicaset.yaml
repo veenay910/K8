@@ -6,7 +6,7 @@ metadata:
   labels:
     purpose: demo
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:  
       proj: roboshop
