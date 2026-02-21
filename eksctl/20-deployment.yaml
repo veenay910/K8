@@ -12,7 +12,6 @@ spec:
       proj: roboshop
       comp: frontend
       env: dev
-
  template:
  metadata:
    labels:
