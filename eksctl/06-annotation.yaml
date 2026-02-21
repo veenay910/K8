@@ -9,6 +9,7 @@ metadata:
     info: The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
 
 spec:
-  -name: nginx123
-   image: nginx
+  containers:
+    -name: nginx123
+    image: nginx
   
