@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+
+metadata: 
+  name: resource-memory
+  namespace: roboshop
+
+spec: 
+  containers:
+    - name: nginx-memory
+      image: nginx
+
+    resource:
+      cpu: 10omi
+      memory: 125m
