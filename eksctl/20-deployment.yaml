@@ -21,8 +21,7 @@ spec:
     spec:
        containers: 
          - name: replica-nginx
-           image: nginx:1.28-alpine-perl
-    
+           image: nginx:1-alpine3.23-perl
 
     
   
